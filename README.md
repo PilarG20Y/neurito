@@ -1,4 +1,6 @@
 # Neurito — NeuroEcosistema
+Maria del Pilar Guzman -
+Ximena Patricia Garcia Espinel
 
 Simulación en Python (`9x9`) de navegación con redes neuronales y ecosistema artificial con presas, depredadores y plantas regenerativas controlado por redes neuronales multicapa (`MLP` de dos capas ocultas por especie), interfaz visual en Pygame y experimentos reproducibles.
 
