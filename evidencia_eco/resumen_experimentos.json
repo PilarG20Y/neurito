@@ -1,0 +1,350 @@
+{
+  "escenarios": [
+    {
+      "nombre": "A_recursos_suficientes",
+      "indice_mapa": 1,
+      "num_plantas": 14,
+      "num_presas": 6,
+      "num_depredadores": 1
+    },
+    {
+      "nombre": "B_escasez_alimento",
+      "indice_mapa": 1,
+      "num_plantas": 3,
+      "num_presas": 6,
+      "num_depredadores": 2
+    },
+    {
+      "nombre": "C_alta_depredacion",
+      "indice_mapa": 2,
+      "num_plantas": 8,
+      "num_presas": 6,
+      "num_depredadores": 5
+    }
+  ],
+  "semillas": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "pasos_max": 80,
+  "resumen": [
+    {
+      "escenario": "A_recursos_suficientes",
+      "politica": "aleatorio",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.5333333333333333,
+      "sup_std": 0.12472191289246472,
+      "plantas_media": 47.2,
+      "plantas_std": 10.514751542475933,
+      "capturas_media": 2.6,
+      "capturas_std": 0.8,
+      "energia_presas_media": 74.56666666666666,
+      "energia_presas_std": 10.427314557875812,
+      "tiempo_captura_media": 37.81666666666667
+    },
+    {
+      "escenario": "A_recursos_suficientes",
+      "politica": "reglas",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.36666666666666664,
+      "sup_std": 0.19436506316151,
+      "plantas_media": 101.0,
+      "plantas_std": 19.788885769542457,
+      "capturas_media": 3.8,
+      "capturas_std": 1.16619037896906,
+      "energia_presas_media": 85.13333333333334,
+      "energia_presas_std": 9.710475443217664,
+      "tiempo_captura_media": 37.07666666666667
+    },
+    {
+      "escenario": "A_recursos_suficientes",
+      "politica": "sin_entrenar",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.9333333333333333,
+      "sup_std": 0.08164965809277258,
+      "plantas_media": 8.0,
+      "plantas_std": 3.8987177379235853,
+      "capturas_media": 1.6,
+      "capturas_std": 1.2000000000000002,
+      "energia_presas_media": 56.533333333333324,
+      "energia_presas_std": 15.754505528401848,
+      "tiempo_captura_media": 30.6
+    },
+    {
+      "escenario": "A_recursos_suficientes",
+      "politica": "mlp_16_12",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.5333333333333334,
+      "sup_std": 0.3231786571610887,
+      "plantas_media": 52.6,
+      "plantas_std": 45.644714918597096,
+      "capturas_media": 1.6,
+      "capturas_std": 1.019803902718557,
+      "energia_presas_media": 57.53333333333334,
+      "energia_presas_std": 30.294370580833807,
+      "tiempo_captura_media": 52.866666666666674
+    },
+    {
+      "escenario": "A_recursos_suficientes",
+      "politica": "mlp_24_16",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.6,
+      "sup_std": 0.16996731711975951,
+      "plantas_media": 16.0,
+      "plantas_std": 7.797435475847171,
+      "capturas_media": 2.6,
+      "capturas_std": 1.4966629547095764,
+      "energia_presas_media": 54.8,
+      "energia_presas_std": 21.63905933465891,
+      "tiempo_captura_media": 49.78333333333334
+    },
+    {
+      "escenario": "B_escasez_alimento",
+      "politica": "aleatorio",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.6333333333333333,
+      "sup_std": 0.12472191289246473,
+      "plantas_media": 8.6,
+      "plantas_std": 3.8262252939417984,
+      "capturas_media": 5.6,
+      "capturas_std": 1.7435595774162693,
+      "energia_presas_media": 80.46666666666667,
+      "energia_presas_std": 8.818163074019445,
+      "tiempo_captura_media": 43.52952380952381
+    },
+    {
+      "escenario": "B_escasez_alimento",
+      "politica": "reglas",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.33333333333333337,
+      "sup_std": 0.29814239699997197,
+      "plantas_media": 14.6,
+      "plantas_std": 4.673328578219169,
+      "capturas_media": 12.4,
+      "capturas_std": 5.571355310873648,
+      "energia_presas_media": 78.5,
+      "energia_presas_std": 6.0332412515993425,
+      "tiempo_captura_media": 27.983599974904326
+    },
+    {
+      "escenario": "B_escasez_alimento",
+      "politica": "sin_entrenar",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.6666666666666666,
+      "sup_std": 0.27888667551135854,
+      "plantas_media": 2.0,
+      "plantas_std": 1.0954451150103321,
+      "capturas_media": 2.4,
+      "capturas_std": 2.576819745345025,
+      "energia_presas_media": 46.46666666666666,
+      "energia_presas_std": 26.190413852739667,
+      "tiempo_captura_media": 55.55238095238095
+    },
+    {
+      "escenario": "B_escasez_alimento",
+      "politica": "mlp_16_12",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.6333333333333334,
+      "sup_std": 0.19436506316151003,
+      "plantas_media": 9.8,
+      "plantas_std": 4.707440918375928,
+      "capturas_media": 8.0,
+      "capturas_std": 7.3484692283495345,
+      "energia_presas_media": 68.93333333333334,
+      "energia_presas_std": 11.545850625513335,
+      "tiempo_captura_media": 45.19454545454546
+    },
+    {
+      "escenario": "B_escasez_alimento",
+      "politica": "mlp_24_16",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.5333333333333333,
+      "sup_std": 0.19436506316151003,
+      "plantas_media": 4.6,
+      "plantas_std": 2.65329983228432,
+      "capturas_media": 10.4,
+      "capturas_std": 8.867919710958146,
+      "energia_presas_media": 68.76666666666667,
+      "energia_presas_std": 15.193419628246959,
+      "tiempo_captura_media": 39.29095238095238
+    },
+    {
+      "escenario": "C_alta_depredacion",
+      "politica": "aleatorio",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.4333333333333333,
+      "sup_std": 0.3091206165165234,
+      "plantas_media": 16.0,
+      "plantas_std": 4.9396356140913875,
+      "capturas_media": 7.8,
+      "capturas_std": 2.4819347291981715,
+      "energia_presas_media": 83.03333333333333,
+      "energia_presas_std": 11.46511617424302,
+      "tiempo_captura_media": 31.566818181818185
+    },
+    {
+      "escenario": "C_alta_depredacion",
+      "politica": "reglas",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.4,
+      "sup_std": 0.3091206165165235,
+      "plantas_media": 34.2,
+      "plantas_std": 11.805083650698965,
+      "capturas_media": 16.2,
+      "capturas_std": 10.047885349664377,
+      "energia_presas_media": 85.99999999999999,
+      "energia_presas_std": 8.57126983980009,
+      "tiempo_captura_media": 40.31565934065934
+    },
+    {
+      "escenario": "C_alta_depredacion",
+      "politica": "sin_entrenar",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.7333333333333334,
+      "sup_std": 0.3431876713662334,
+      "plantas_media": 3.6,
+      "plantas_std": 1.3564659966250536,
+      "capturas_media": 3.6,
+      "capturas_std": 3.0724582991474434,
+      "energia_presas_media": 57.53333333333334,
+      "energia_presas_std": 15.531473422269594,
+      "tiempo_captura_media": 15.577777777777778
+    },
+    {
+      "escenario": "C_alta_depredacion",
+      "politica": "mlp_16_12",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.5666666666666667,
+      "sup_std": 0.16996731711975951,
+      "plantas_media": 12.0,
+      "plantas_std": 6.957010852370434,
+      "capturas_media": 8.8,
+      "capturas_std": 2.039607805437114,
+      "energia_presas_media": 76.66666666666666,
+      "energia_presas_std": 12.940891262454324,
+      "tiempo_captura_media": 32.973304473304474
+    },
+    {
+      "escenario": "C_alta_depredacion",
+      "politica": "mlp_24_16",
+      "semillas": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "pasos_max": 80,
+      "sup_media": 0.33333333333333337,
+      "sup_std": 0.2357022603955158,
+      "plantas_media": 15.0,
+      "plantas_std": 7.5099933422074345,
+      "capturas_media": 10.2,
+      "capturas_std": 3.249615361854384,
+      "energia_presas_media": 71.89999999999999,
+      "energia_presas_std": 15.793669617919706,
+      "tiempo_captura_media": 25.20361111111111
+    }
+  ]
+}
