@@ -1,7 +1,10 @@
 # Neurito — NeuroEcosistema
 Maria del Pilar Guzman -
 Ximena Patricia Garcia Espinel
-
+Conceptos Importantes
+* **sin_entrenar**: Red neuronal con pesos iniciales sin fase de entrenamiento, útil como línea base para contrastar qué aporta el entrenamiento frente a una red sin entrenar (no es un resultado *"malo"* por sí mismo, sino un punto de referencia que en este experimento incluso muestra supervivencia de presas alta junto a menor consumo/capturas).
+* **`mlp_16_12`**: Configuración de red neuronal multicapa (**MLP**) con capas ocultas de `16` y `12` neuronas evaluada en el ecosistema.
+* **`mlp_24_16`**: Configuración de red neuronal multicapa (**MLP**) con capas ocultas de `24` y `16` neuronas evaluada bajo los mismos escenarios para comparar su desempeño y dispersión.
 Simulación en Python (`9x9`) de navegación con redes neuronales y ecosistema artificial con presas, depredadores y plantas regenerativas controlado por redes neuronales multicapa (`MLP` de dos capas ocultas por especie), interfaz visual en Pygame y experimentos reproducibles.
 
 ## Ejecución rápida
